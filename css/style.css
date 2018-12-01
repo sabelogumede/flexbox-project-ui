@@ -1,0 +1,18 @@
+/* -----------------------------------------------------------------------------
+Base styles
+--------------------------------------------------------------------------------*/
+body,
+button,
+input,
+textarea {
+    color: balck;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+body {
+    background-color: #EDEDED;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+}
