@@ -17,6 +17,12 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 header, footer {
     background-color: black;
     height: 100px;
@@ -84,7 +90,7 @@ p {
     background-color: #F6D200;
 }
 
-
+/* media query */
 @media screen and (min-width: 1120px) {
 
     .site-title {
@@ -95,4 +101,37 @@ p {
 
 /* -----------------------------------------------------------------------------
     END THE HEADER STYLES
+--------------------------------------------------------------------------------*/
+
+
+/* -----------------------------------------------------------------------------
+    START THE POST STYLES
+--------------------------------------------------------------------------------*/
+.main-content-area {
+    padding: 2em;
+}
+
+.post {
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.post a {
+    color: black;
+    text-decoration: none;
+}
+.post-content {
+    padding: 0 40px 20px;
+}
+.post-content h2{
+    background-color: #F6D200;
+    color: black;
+    padding: 20px;
+    text-align: center;
+     /*  */
+     margin: 0 -40px 30px;
+}
+
+/* -----------------------------------------------------------------------------
+    END THE POST STYLES
 --------------------------------------------------------------------------------*/
