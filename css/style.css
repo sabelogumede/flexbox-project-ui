@@ -276,6 +276,48 @@ p {
     margin-bottom: -.25em;
 }
 
+/* flexbox styling */
+.download-content {
+    display: flex;
+    flex-flow: column;
+}
+.download-content a, .download-rating {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+.download-genre, .download-cast {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.download-info h4 {
+    flex-basis: 20%;
+}
+
+.download-genre {
+    margin-bottom: 10px;
+}
+
+/* flexbox for media query */
+@media screen and (min-width: 810px) {
+
+    .download-content {
+        display: flex;
+        flex-flow: row;
+    }
+    .download-content a, .download-rating {
+        flex-grow: 1;
+    }
+
+    .download-info {
+        flex-grow: 2;
+    }
+
+
+}
+
 /* -----------------------------------------------------------------------------
     END SECTION DOWNLOAD STYLES
 --------------------------------------------------------------------------------*/
